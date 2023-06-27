@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <title>Fancy-login-form</title>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background-image: url("https://c8.alamy.com/comp/WNC147/feminine-workspace-with-laptop-computer-diary-flowers-golden-stationery-on-concrete-stone-background-flat-lay-top-view-office-table-desk-WNC147.jpg") ;
+            }
+            .form-div{
+                width:250px;
+                text-align: center;
+                margin:150px auto;
+                background-color: rgb(0,0,0,0.5);
+                border-radius: 10px;
+                box-shadow: 0 0 15px #00aeef;
+                
+
+            }
+            .form-div img{
+                width:100px;
+                margin-top: -50px;
+                border-radius: 50%;
+                background: transparent;
+                
+
+
+            }
+            .form-div h2{
+                color:white;
+                margin-top: 10px;
+            }
+            input[type="text"],input[type="password"]{
+                text-align: center;
+                border: none;
+                outline: none;
+                font-size: 18px;
+                height:35px;
+                background: transparent;
+                color:white;
+                border-bottom: 3px solid teal;
+                width:200px;
+
+
+            }
+            ::placeholder{
+                color:lightgray
+            }
+            input[type="text"],input[type="password"]:focus{
+                border-bottom: 3px solid #00aeef;
+            }
+            input[type="submit"]{
+                background-color: teal;
+                color:white;
+                border:none;
+                font-size: 18px;
+                margin: 15px;
+                padding: 10px 35px;
+                border-radius: 50px;
+            }
+            input[type="submit"]:hover{
+                background-color: #00aeef;
+                box-shadow: 0 0 15px white;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <!--Login Form-->
+       
+        <div class="form-div">
+             <img src="data:image/jpeg;base64,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">
+            <h2>Login Here</h2>
+            <form>
+                <input type="text" placeholder="User Name">
+                <br>
+                <input type="password" placeholder="Password">
+                <br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </body>
+</html>
