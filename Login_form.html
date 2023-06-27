@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login Form</title>
+        <style>
+            body{
+                background-image: url("https://c8.alamy.com/comp/WNC147/feminine-workspace-with-laptop-computer-diary-flowers-golden-stationery-on-concrete-stone-background-flat-lay-top-view-office-table-desk-WNC147.jpg");
+                background-size: cover;
+            }
+            .form{
+                border: 2px solid blue;
+                width:250px;
+                text-align: center;
+                border-radius: 15px;
+                margin: auto;
+                background-image: url("https://24.media.tumblr.com/6855058ef75ce5876bb2d0e4db8468e9/tumblr_miwoklbgep1qcy0o0o1_500.gif");
+                
+            }
+            .form h2{
+                color:white;
+            }
+            input[type="text"],input[type="password"]{
+                height: 35px;
+                text-align: center;
+                border: 2px solid blue;
+                margin: 5px;
+                font-size: 18px;
+                width: 200px;
+                border-radius: 15px;
+                
+
+            }
+            input[type="text"],input[type="password"]:focus{
+                outline: none;
+                background-color: lightblue;
+            }
+            input[type="submit"]{
+                background-color: blue;
+                color:white;
+                border: none;
+                font-size: 18px;
+                padding: 8px 40px;
+                margin: 5px 0 10px 0;
+                border-radius: 15px;
+            }
+            input[type="submit"]:hover{
+                opacity:0.8 ;
+                cursor: pointer;
+                box-shadow: lightblue;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <!--Login form-->
+        <div class="form">
+            <h2>Login Here</h2>
+            <form>
+                <input type="text" placeholder="User Name">
+                <br>
+                <input type="password" placeholder="Password">
+                <br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </body>
+</html>
